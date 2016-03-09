@@ -314,15 +314,15 @@
 
   step( {
     0: function( _step ) {
-      requestText( 'raymarch.frag', function( _frag ) {
+      requestText( '../shader/raymarch.frag', function( _frag ) {
         programs.raymarch = glCat.createProgram( quadVert, _frag );
         _step();
       } );
-      requestText( 'blur.frag', function( _frag ) {
+      requestText( '../shader/blur.frag', function( _frag ) {
         programs.blur = glCat.createProgram( quadVert, _frag );
         _step();
       } );
-      requestText( 'return.frag', function( _frag ) {
+      requestText( '../shader/return.frag', function( _frag ) {
         programs.return = glCat.createProgram( quadVert, _frag );
         _step();
       } );
