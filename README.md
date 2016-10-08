@@ -1,11 +1,13 @@
-# Everyday One Motion - 20160310 "IFS Parallelotope"  
+# Everyday One Motion - 20160310  
+
+"IFS Parallelotope"  
 
 ![](20160310.gif)  
 
 JavaScript, WebGL, Raymarching  
 
 [Everyday One Motion](http://motions.work/motion/140)  
-[Demo Page](http://fms-cat.github.io/eom_20160310)  
+[Demo Page](http://fms-cat-eom.github.io/20160310)  
 
 ## IFS Parallelotope  
 
